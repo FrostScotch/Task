@@ -7,7 +7,7 @@ except ValueError:
     print("That's not a valid number of students!")
 else:
     try:
-        f = open('reg_form.txt', 'w')
+        f = open('reg_form.txt', 'a')
     except IOError:
         print("Unable to open the file")
     else:
